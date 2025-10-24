@@ -58,7 +58,7 @@ button:active{
     background-color: hsl(30,100%,70%);
 }
 #clear{
-    grid-column: span 3;
+    grid-column: span 2;
     width: auto;
     align-self: stretch;
     background-color: hsl(30,100%,50%);
@@ -70,6 +70,17 @@ button:active{
 #clear:active{
     background-color: hsl(30,100%,70%);
 }
+#remove{
+    background-color: hsl(30,100%,50%);
+    
+}
+#remove:hover{
+    background-color: hsl(30,100%,60%);
+}
+#remove:active{
+    background-color: hsl(30,100%,70%);
+}
+
 body{
     display: flex;
     justify-content: center;

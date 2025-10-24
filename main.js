@@ -11,4 +11,8 @@ function Calculate(){
     }
     catch{
         display.value = 'Error';
-    }}
+    }
+function RemovefromDisplay(){
+    display.value-=display.value.slice(0,-1);
+}
+}
