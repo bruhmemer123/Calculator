@@ -5,6 +5,8 @@ function WritetoDisplay(input){
 function ClearDisplay(){
     display.value = '';
 }
+function Removefromdisplay(){
+    display.value = display.value.slice(0, -1);}
 function Calculate(){
     try{
         display.value = eval(display.value);
@@ -12,7 +14,5 @@ function Calculate(){
     catch{
         display.value = 'Error';
     }
-function RemovefromDisplay(){
-    display.value-=display.value.slice(0,-1);
-}
+
 }

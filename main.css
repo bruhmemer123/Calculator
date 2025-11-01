@@ -46,41 +46,6 @@ button:active{
     text-align: left;
     border: none;
 }
-#equal{
-    height: auto;
-    grid-row: span 2;
-    background-color: hsl(30,100%,50%);
-}
-#equal:hover{
-    background-color: hsl(30,100%,60%);
-}
-#equal:active{
-    background-color: hsl(30,100%,70%);
-}
-#clear{
-    grid-column: span 2;
-    width: auto;
-    align-self: stretch;
-    background-color: hsl(30,100%,50%);
-    
-}
-#clear:hover{
-    background-color: hsl(30,100%,60%);
-}
-#clear:active{
-    background-color: hsl(30,100%,70%);
-}
-#remove{
-    background-color: hsl(30,100%,50%);
-    
-}
-#remove:hover{
-    background-color: hsl(30,100%,60%);
-}
-#remove:active{
-    background-color: hsl(30,100%,70%);
-}
-
 body{
     display: flex;
     justify-content: center;

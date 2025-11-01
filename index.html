@@ -7,6 +7,9 @@
         <div id="calculator">
             <input id="display" readonly>
             <div id="buttons">
+                <button id="op" onclick="ClearDisplay()">C</button>
+                <button id="op" onclick="WritetoDisplay('(')">(</button>
+                <button id="op" onclick="WritetoDisplay(')')">)</button>
                 <button id="op" onclick="WritetoDisplay('+')">+</button>
                 <button onclick="WritetoDisplay('7')">7</button>
                 <button onclick="WritetoDisplay('8')">8</button>
@@ -22,9 +25,8 @@
                 <button id="op" onclick="WritetoDisplay('/')">/</button>
                 <button onclick="WritetoDisplay('0')">0</button>
                 <button onclick="WritetoDisplay('.')">.</button>
-                <button id="equal" onclick="Calculate()">=</button>
-                <button id="clear" onclick="ClearDisplay()">C</button>
-                <button id="remove" onclick="RemovefromDisplay()"><img src="/image.png"></button>
+                <button id="op" onclick="Calculate()">=</button>
+                <button id="op" onclick="Removefromdisplay()">B</button>
             </div>                
         </div>
         <script src="main.js"></script>
